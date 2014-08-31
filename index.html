@@ -3,10 +3,23 @@
 
   <head><title>My first Webpage</title>
     <link rel="shortcut icon" href="icons/sharingan.ico">
-    <link href='http://fonts.googleapis.com/css?family=Ubuntu+Condensed|Pacifico|Quantico|Kalam' rel='stylesheet' type='text/css'>
+    <!--<link href='http://fonts.googleapis.com/css?family=Ubuntu+Condensed|Pacifico|Quantico|Kalam' rel='stylesheet' type='text/css'>-->
     <link href="css/font.css" rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Ubuntu+Condensed::latin', 'Pacifico::latin', 'Kalam::latin' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); </script>
     
   </head>
 
