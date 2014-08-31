@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* devanagari */
 @font-face {
   font-family: 'Kalam';
@@ -44,8 +44,6 @@
   src: local('Ubuntu Condensed'), local('UbuntuCondensed-Regular'), url(http://fonts.gstatic.com/s/ubuntucondensed/v5/DBCt-NXN57MTAFjitYxdrDAdhzWOYhqHvOZMRGaEyPo.woff2) format('woff2'), url(http://fonts.gstatic.com/s/ubuntucondensed/v5/DBCt-NXN57MTAFjitYxdrFzqCfRpIA3W6ypxnPISCPA.woff) format('woff');
 }
 
-=======
->>>>>>> a0ac5079441676d150c702844e6071df38053ce6
 .nav a {
   color: #5a5a5a;
   font-size: 11px;
