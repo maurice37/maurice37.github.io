@@ -1,5 +1,5 @@
 @font-face{
-  font-family:"Ubuntu Condensed";
+  font-family:"Ubuntu";
   src:url("../fonts/Ubuntu_Condensed/UbuntuCondensed-Regular.tff");
 }
 @font-face{
@@ -40,7 +40,7 @@
 .jumbotron h1 {
   color: #fff;
   font-size: 34px;  
-  font-family: 'Ubuntu Condensed','Pacifico','Kalam', sans-serif;
+  font-family: 'Ubuntu','Pacifico','Kalam', sans-serif;
 }
 
 .jumbotron p {
