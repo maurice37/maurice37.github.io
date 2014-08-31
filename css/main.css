@@ -12,7 +12,7 @@
 }
 
 .jumbotron {
-  background-image:url('http://maxcdn.thedesigninspiration.com/wp-content/uploads/2012/11/Wallpaper-l-008.jpg');
+  background-image:url('../images/bg.jpg');
   height: 500px;
   
   background-repeat: no-repeat;
@@ -61,10 +61,4 @@
     font-size:15px;
     margin-bottom:13px;
 }
-div #gold{
-  background-color: #FFD119;
-  margin:0px;
-}
-
-
 
