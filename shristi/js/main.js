@@ -15,4 +15,11 @@ $( document ).ready(function() {
 });
 
 
-
+document.addEventListener('keydown',function(event){
+	if(event.keyCode == 37){
+		$('#previous_page').children()[0].click();
+	}
+	else if(event.keyCode == 39){
+		$('#next_page').children()[0].click();	
+	}
+});
