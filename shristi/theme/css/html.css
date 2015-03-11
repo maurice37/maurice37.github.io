@@ -11,6 +11,7 @@ body{
 	font-size: 18px;
 	margin: 0 0 3em;
 	padding-top: 0px;
+	zoom: 110%;
 }
 
 
@@ -209,6 +210,15 @@ div.navbar h2{
 	-moz-transition: opacity, 0.3s, ease-in-out;
 	transition: opacity, 0.3s, ease-in-out;
 }
+.navigation ul li.none1 a{
+	opacity: 0.3;
+	cursor: default;
+}
+
+.navigation ul li.none a:hover{
+	opacity: 0.3;
+	cursor: default;
+}
 
 .navigation ul li:nth-child(1){
 	right: 30px;
@@ -234,7 +244,7 @@ div.navbar h2{
 	width: 240px;
 	height: 240px;
 	border-radius: 50%;
-	margin:	4.5em auto 3.5em;
+	margin:	0.1em auto 3.5em;
 }
 
 .icon img{
@@ -247,12 +257,6 @@ section{
 	max-width: 700px;
 	margin: 0 auto 8em;
 }
-
-section[data-type="chapter"] header{
-	border-bottom: 18 px solid #eeeeee;
-	margin-bottom: 4em;
-}
-
 section[data-type="chapter"] header h1{
 	font-family: "source_sans_proregular",sans-serif;
 	font-size: 2.4em;
@@ -260,7 +264,7 @@ section[data-type="chapter"] header h1{
 	margin-bottom: 0;
 	margin-left: 50px;
 	text-align: center;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	color: #444444;
 	-webkit-font-smoothing: antialiased;
 }
@@ -473,8 +477,6 @@ div[data-type="part"]{
 
 
 section[data-type="chapter"] header{
-	border-bottom: 18px solid #eeeeee;
+	/*border-bottom: 18px solid #eeeeee;*/
 	margin-bottom: 4em;
 }
-
-
